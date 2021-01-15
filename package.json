@@ -1,0 +1,29 @@
+{
+  "name": "aking-cli",
+  "version": "1.0.0",
+  "description": "aking-cli",
+  "main": "index.js",
+  "bin": {
+    "aking-cli": "index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeiaiKing/aking-cli.git"
+  },
+  "author": "aking",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeiaiKing/aking-cli/issues"
+  },
+  "homepage": "https://github.com/WeiaiKing/aking-cli#readme",
+  "dependencies": {
+    "commander": "^6.2.1",
+    "download-git-repo": "^3.0.2"
+  }
+}
